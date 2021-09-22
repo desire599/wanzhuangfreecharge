@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1567604",
+      "name": "power",
+      "font_class": "power",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "2328340",
+      "name": "无信号",
+      "font_class": "wuxinhao",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "14143309",
+      "name": "信号",
+      "font_class": "38",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "19989314",
+      "name": "signal",
+      "font_class": "signal",
+      "unicode": "ea1f",
+      "unicode_decimal": 59935
+    }
+  ]
+}
