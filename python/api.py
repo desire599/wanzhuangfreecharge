@@ -110,7 +110,7 @@ def getAuth():
         print(info_dict)
         return info_dict['authorization']
     else:
-        return "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzE5NjA5NjksIm5iZiI6MTYzMTk2MDk2OCwiZXhwIjoxNjMyNTY1NzY5LCJ1X2lkIjozMDYzMzM0LCJ1X3R5cGUiOjEsImNvbXBhbnlfaWQiOjIsImlzcyI6ImRpZGlfd3oifQ.LXGHp6c1osHOOXIyo-P4-G-_IjITO1aB43FwcjPM3dY"
+        return "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzQwODk2NzMsIm5iZiI6MTYzNDA4OTY3MiwiZXhwIjoxNjM0Njk0NDczLCJ1X2lkIjozMDYzMzM0LCJ1X3R5cGUiOjEsImNvbXBhbnlfaWQiOjIsImlzcyI6ImRpZGlfd3oifQ.zZ55p2lbgrCD9OXOF0xvuqrtBJPhg20s0x0dN1jPdHg"
 
 
 @app.route("/device/getChargeInfo", methods=['POST'])

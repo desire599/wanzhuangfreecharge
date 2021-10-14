@@ -18,6 +18,7 @@
         <img src="@/static/1.jpeg" height="80%" style="margin:5% 0 0 28%" alt="" srcset="">
       </van-popup>
     </van-tabbar>
+    <!-- <qrReader></qrReader> -->
   </div>
 
 </template>
@@ -28,6 +29,7 @@ import deviceSelect from '@/charge/deviceSelect.vue'
 import authorizationText from '@/charge/authorizationText.vue'
 import deviceInfo from '@/charge/showDeviceInfo.vue'
 import portList from '@/charge/showPortList.vue'
+// import qrReader from '@/components/QrReader.vue'
 // import Vue from 'vue'
 
 // import Vue from 'vue'
@@ -55,6 +57,7 @@ export default ({
     authorizationText,
     deviceInfo,
     portList
+    // qrReader
   },
   mounted () {
     // this.$refs.deviceSelect.eventEmit()
